@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Прогноз средневзвешенной задержки оплаты (календарные дни) для августа/сентября 2025.
-Чтение данных с листа Sheet2, LightGBM (с фолбэком), расширенные фичи и прогресс-бары.
 
-Запуск:
-    python main.py "c:/Users/bayon/Desktop/ols/for model (2).xlsx"
-
-Если путь не передан — возьмём файл "for model (2).xlsx" из папки со скриптом.
-"""
 
 import sys
 import warnings
@@ -360,3 +352,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
